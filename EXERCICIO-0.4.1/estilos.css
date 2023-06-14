@@ -1,0 +1,42 @@
+tr:nth-child(1) {
+    background-color: black;
+    color: white;
+    border: none;
+  }
+  
+  td, th {
+    padding: 10px;
+    text-align: start;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  tr:nth-child(odd):not(:first-child) {
+    background-color: #cccfcd;
+  }
+tr:hover:not(:first-child){
+    background: local;
+    transform: scale(1.1);
+}
+
+  a {
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  .youtube{
+    background-color: red;
+    color: white;
+  }
+  .instagram{
+    background-color: rgb(150, 36, 150);
+    color: white;
+  }
+  .twitter{
+    color: white;
+    background-color: #1A8CD8;
+  }
+ 
